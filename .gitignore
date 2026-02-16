@@ -1,0 +1,75 @@
+# Friccion - archivos que no deben subirse al repositorio
+
+# === Secretos y config local ===
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*secrets*
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# === Entornos virtuales ===
+.venv/
+venv/
+env/
+ENV/
+
+# === Datos de runtime (sessions, memory, approvals) ===
+# Contienen conversaciones y datos de uso; no versionar
+data/
+
+# === Sistema operativo ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# === IDEs y editores ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# === Cursor (opcional) ===
+.cursor/
+
+# === Logs y temporales ===
+*.log
+*.tmp
+*.temp
+.cache/
+
+# === Tests / coverage (si se añaden luego) ===
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
