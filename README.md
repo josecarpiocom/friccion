@@ -1,4 +1,6 @@
-# Friccion – Aprende a construir agentes de IA construyendolos
+# Fricción – Construye agentes de IA entendiendo cada pieza
+
+![FRICCIÓN – Aprende construyendo. Sin magia.](assets/logo.png)
 
 > "El valor en agentes IA no esta en la IA — esta en la ingenieria de sistemas. Memory, coordinacion, learning, input sin friccion, output accionable. Si no resuelves esas 5 cosas, tienes chatbots sofisticados."
 
